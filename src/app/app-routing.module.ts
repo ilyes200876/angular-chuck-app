@@ -5,7 +5,8 @@ import { SecondPageComponent } from './second-page/second-page.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
-  {path: 'second', component: SecondPageComponent}
+  {path: 'second', component: SecondPageComponent},
+  // {path: 'second', component: SecondPageComponent}
 ];
 
 @NgModule({
